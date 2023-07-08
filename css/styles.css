@@ -137,17 +137,9 @@ section{
     text-align: center;
     width: 100%;
 }
-.habilidades ol{
-    text-align: center;
-    width: 100%;
-    padding: 16px;
-    margin-top: 30px;
-    margin-left: 30px;
-
-}
 .botoncv {
     background-color: #79a0f3;
-    padding:12px 20px;
+    padding: 12px 20px;
     border-radius: 50px;
     font-size: 20px;
     margin-top: 16px;
@@ -166,20 +158,21 @@ section{
     margin-top: 16px;
 } 
 .iconos{
-    width: 100px;
+    max-width: 100%;
+    width: 60%;
     margin-left: 16px;
     display: flex;
     justify-content: center;
     margin-top: 60px;
 }
 
-.iconos .github{
+.iconos.github{
     padding: 16px;
 }
-.iconos .linkedin{
+.iconos.linkedin{
    padding: 16px;
 }
-.iconos .mail{
+.iconos.mail{
    padding: 16px;
 }
 footer{
@@ -191,11 +184,11 @@ footer{
 /*Media query*/
 @media( min-width: 1024px ){
     h1{
-        font-size: 32px;
+        font-size: 48px;
         text-align: left;
     }
     h2{
-        font-size: 28px;
+        font-size: 32px;
     
     }
     #inicio{
@@ -208,10 +201,11 @@ footer{
     .presentacion p {
         text-align: left;
     }
-    .habilidades ol{
-        text-align: left;
-        width: 50%;
-    }
+   .iconos{
+    width: 50%;
+   }
+    
+
    
 }
     
